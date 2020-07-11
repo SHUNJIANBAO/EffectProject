@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4256256866668420}
   - component: {fileID: 50055070518124372}
-  - component: {fileID: 6828583382274859494}
   - component: {fileID: 212284420641368938}
   - component: {fileID: 61128312090962298}
   - component: {fileID: 95466112816901852}
@@ -56,23 +55,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &6828583382274859494
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1845009126737822}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a61c36a4e3e3014c9b8a2617dd0fe72, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  RoleId: 1
-  IsGround: 0
-  CameraTargetOffest: {x: 0, y: -1, z: 0}
-  JumpTime: 0.25
-  JumpVelocity: {x: 0, y: 10}
 --- !u!212 &212284420641368938
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -87,6 +69,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
