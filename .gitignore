@@ -1,0 +1,8 @@
+Library/
+obj/
+Temp/
+.vs/
+Assembly-CSharp.csproj
+Assembly-CSharp-Editor.csproj
+Project.sln
+Assets/ArtResources
