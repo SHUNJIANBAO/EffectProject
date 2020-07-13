@@ -11,10 +11,8 @@ GameObject:
   - component: {fileID: 4172143032776722}
   - component: {fileID: 212969705961373918}
   - component: {fileID: 95223747878970244}
-  - component: {fileID: 50351724709476822}
   - component: {fileID: 61670228075384408}
-  - component: {fileID: 4046888730220388561}
-  - component: {fileID: -8456127605295299351}
+  - component: {fileID: 50351724709476822}
   m_Layer: 13
   m_Name: TaoLuoSi
   m_TagString: Untagged
@@ -50,6 +48,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -104,27 +103,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!50 &50351724709476822
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1837804671112726}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 4
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 5
 --- !u!61 &61670228075384408
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -151,32 +129,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.7291364, y: 2.090776}
   m_EdgeRadius: 0
---- !u!114 &4046888730220388561
-MonoBehaviour:
+--- !u!50 &50351724709476822
+Rigidbody2D:
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1837804671112726}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cacf31551642ef8459981b91e3aa3552, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  RoleId: 100
-  IsGround: 0
-  poolState: 1
---- !u!114 &-8456127605295299351
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1837804671112726}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68b08bd3a88301549b4cbf7802930d37, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NodeAssets: {fileID: 0}
-  Interval: 0
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 4
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 5
